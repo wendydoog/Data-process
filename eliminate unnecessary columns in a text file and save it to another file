@@ -13,7 +13,7 @@ Output file: protein file that only records atoms' coordinates, charges and ridi
         
        
 Python code:
-'''
+
 file1 = open('/Users/siwenwang/Desktop/1X8Q_noW_emSD5000.pqrg', 'r+') 
 file2 = open('/Users/siwenwang/Desktop/1X8Q_vacuo.xyzqr', 'a') 
 lines = file1.readlines()
@@ -27,7 +27,7 @@ for line in lines:
 
 file1.close()
 file2.close()
-'''
+
 
                       
             
