@@ -3,7 +3,7 @@
 
  -----
  
- `Description`: This is from my Ph.D research area which needs me to convert a .pqrg protein file to a .xyzqr protein file that contains less information.
+ `Description`: This is from my Ph.D research area which needs me to convert a .pqrg protein file to a .xyzqr protein file that contains less information by eliminating unnecessary columns.
  
 -----
 
