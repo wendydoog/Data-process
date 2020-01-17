@@ -5,5 +5,5 @@ Here is something related to Data Processing I encountered when I dealing with m
 -----
 
 * How to process a redundant file in Python to make it become our required data-format?
-    1. eliminate unnecessary columns in a text file and save it to another file. [my directory](file1.md)
+    1. eliminate unnecessary columns in a text file and save it to another file. [click](file1.md)
 
