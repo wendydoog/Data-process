@@ -5,10 +5,10 @@
  
  `description`: This is from my Ph.D research area which needs me to convert a .pqrg protein file to a .xyzqr protein file that contains less information.
  
- -----
+-----
 
 ##### a. Input:
------
+
 `Input file`: protein file that records the information of atoms line by line in this protein.
 
 `format(one line)`: e.g. `ATOM      1 N    ALA X   1      40.430  32.800  16.670  0.1414 1.6000 0.00290`
@@ -20,9 +20,9 @@ where `1X8Q` represents the protein's name, `noW` is no water, here means in `va
 `File storage path`: e.g. `/Users/siwenwang/Desktop/1X8Q_noW_emSD5000.pqrg'`
 
 -----
+
 ##### b. Output:   
 
------
 `Output file`: protein file that only records atoms' coordinates, charges and ridius.
 
 `format(one line)`: e.g.`40.430  32.800  16.670  0.1414 1.6000`
@@ -35,9 +35,9 @@ where `1X8Q` represents the protein's name, `noW` is no water, here means in `va
             
 -----      
        
+       
 ##### c. Python code:
 
------
 ```
 file1 = open('/Users/siwenwang/Desktop/1X8Q_noW_emSD5000.pqrg', 'r+') 
 file2 = open('/Users/siwenwang/Desktop/1X8Q_vacuo.xyzqr', 'a') 
