@@ -1,5 +1,10 @@
 ### processing a redundant file in Python to make it become our required data-format 
 #### 1. eliminate unnecessary columns in a text file and save it to another file
+
+ -----
+ 
+ `description`: This is from my Ph.D research area which needs me to convert a .pqrg protein file to a .xyzqr protein file that contains less information.
+ 
  -----
 
 ##### a. Input:
