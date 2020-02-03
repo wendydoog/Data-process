@@ -3,7 +3,7 @@
 
  -----
  
- `Description`: This is from the class I took in Udacity called Intro to Data Analysis. We will use  `unicodecsv` library and `DictReader` in this libary to help us to do the data processing.
+ `Description`: This is from the class I took in Udacity called Intro to Data Analysis and Data Wrangling with MongoDB. We will use  `unicodecsv` library or  `csv` library and `DictReader` in these libaries to help us to do the data processing.
  
 -----
 
@@ -38,4 +38,18 @@ with open('enrollment.csv','rb') as f
   enrollments = list(reader) 
   
 
+```
+
+We can define the function called parse_csv to do the job:
+
+```
+import csv
+def parse_csv(datafile):
+    data = []
+    n = 0
+    with open(datafile,'rb') as sd:
+        r = csv.DictReader(sd)
+        for line in r:
+            data.append(line)
+    return data 
 ```
