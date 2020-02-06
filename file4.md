@@ -1,5 +1,5 @@
 ### Processing a redundant file in Python to make it become our required data-format 
-#### 2. 
+#### 2. Read excel file into Python as a list, in where each element is a list.
 
  -----
  
